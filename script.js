@@ -33,7 +33,7 @@ function fetchAndDisplayCharacters(url) {
                 const characterCreatedAt = document.createElement("p");
                 characterCreatedAt.textContent = `CreatedAt : ${character.createdAt}`;
 
-                console.log(character);
+                
                 cardBody.append(characterName);
                 cardBody.append(characterCreatedAt);
                 card.append(characterImage);
